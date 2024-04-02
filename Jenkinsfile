@@ -7,7 +7,7 @@ pipeline {
 				checkout scm
 			}
 		}
-	}
+	
 	  stage('Client Tests') {
 	steps {
 		dir('client') {
@@ -16,4 +16,5 @@ pipeline {
 		}
 	}
 }
+	}
 }
